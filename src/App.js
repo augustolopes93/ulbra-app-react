@@ -1,25 +1,18 @@
+import React from 'react';
+import MeuComponente from './MeuComponente';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+          <header className="App-header">
+              <h1>Seja bem vindo a minha aplicação React de AP2</h1>
+              <MeuComponente />
+          </header>
+      </div>
   );
 }
 
 export default App;
+
